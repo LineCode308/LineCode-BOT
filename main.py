@@ -8,6 +8,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 from flask import Flask
 import os
+from threading import Thread
 
 # =========================================================
 # KONFIGURACJA
