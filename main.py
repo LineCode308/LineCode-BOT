@@ -1031,7 +1031,7 @@ class VerificationView(discord.ui.View):
 # =========================================================
 
 
-app = Flask(name)
+app = Flask(__name__)
 
 
 @app.route("/")
